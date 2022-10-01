@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.pagination {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 2%;
+  text-decoration: none;
+  list-style: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+.table tr:hover {
+  background-color: lightgray;
+}
+
+
+
+@media only screen and (min-width: 400px) {
+  
+  .pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 768px) {
+  
+  .pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+
